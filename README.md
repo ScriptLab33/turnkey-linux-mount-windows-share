@@ -9,7 +9,6 @@ Find and replace:
 ```
 apt-get update -y
 apt-get install cifs-utils -y
-apt-get upgrade -y
 mkdir /media/SHARE_NAME
 mount -t cifs //IP_OF_FILESERVER/SHARE_NAME /media/SHARE_NAME -o username=USERNAME
 ```
